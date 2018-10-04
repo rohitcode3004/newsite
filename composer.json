@@ -1,0 +1,18 @@
+{
+    "name": "login/one",
+    "description": "This is a simple login/registration system",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rohit Devops",
+            "email": "bishtrohit3004@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+           "Newsite\\Login\\":"src/classes/auth/"
+        }
+    }
+        
+    }
